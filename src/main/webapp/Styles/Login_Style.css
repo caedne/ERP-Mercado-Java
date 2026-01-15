@@ -1,0 +1,35 @@
+@import url('Registro_Style.css');
+
+/* Estilo do link de registro */
+.register-link a {
+  color: #fcbf32;
+  /* Cor dourada do layout */
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.register-link a:hover {
+  color: #fffd75;
+  /* Fica branco ao passar o mouse */
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.password-container button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}

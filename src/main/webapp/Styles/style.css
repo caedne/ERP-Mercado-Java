@@ -1,0 +1,32 @@
+.imagem {
+  border-radius: 8px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.produtos-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.produto {
+  text-align: center;
+  width: 150px;
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.produto p {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+
